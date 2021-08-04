@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p,span{
+  margin: 0;
+  padding: 0;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+body{
+    background:green;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-body{
+    margin-top:100px;
+}
+.to-do-box{
+    background-color: white; 
+    padding: 20px 20px 0 20px;
+    border-radius: 8px;
+}
+.to-do-box-top{
+    border-bottom: 1px solid #80808080;
+    padding-bottom: 20px;
+}
+
+.app-add-item{
+    background: #80808029;
+    padding: 10px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.app-add-item input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding-right: 10px; 
+}
+.app-add-item i{
+    font-size: 40px;
+    
+}
+
+.item-box{
+    border-bottom: 1px solid #80808080;  
+    padding: 10px;
+   
+    
+}
+.none{
+    display: none !important;
+}
+
+.flex{
+    display: flex !important;
+}
+.completed{
+    color:black;
+    background-color:yellow;
+}
+.all-buttons{
+    color: white;
+    padding: 10px;  
+}
+.trash-button{
+  background-color:orangered; 
+  margin-left: 10px; 
+}
+.done-button{
+    background-color:green;    
+  }
+.cancel-button{
+    background-color:darkred; 
+    padding: 10px 12px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+}
+ul li{
+  margin: 0 10px;
+  cursor: pointer;
+}
